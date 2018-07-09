@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-favicon",
-  "version": "3.0.0",
+  "name": "@wyze/gatsby-plugin-favicon",
+  "version": "2.1.1",
   "description": "Gatsby plugin to add favicon for all configurations",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/Creatiwity/gatsby-plugin-favicon#readme",
   "readme": "README.md",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "babel-runtime": "^6.26.0",
     "favicons-webpack-plugin": "^0.0.9"
   },
   "devDependencies": {
@@ -33,6 +35,7 @@
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4"
   }
 }
